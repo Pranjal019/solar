@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solar System Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header with search and category filter -->
+    <header>
+        <h1>Solar System Gallery</h1>
+        <input type="text" id="search" placeholder="Search images..." class="search-bar">
+        <select id="category-filter" class="category-filter">
+            <option value="">All Categories</option>
+            <option value="planets">Planets</option>
+            <option value="moons">Moons</option>
+           
+            <option value="space-exploration">Space Exploration</option>
+        </select>
+    </header>
+
+    <!-- Gallery container -->
+    <section class="gallery-container">
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/mercury.png" alt="Mercury">
+            
+        </div>
+
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/jupiter.png" alt="Mercury">
+            
+        </div>
+
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/mars.png" alt="Mercury">
+            
+        </div>
+
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/neptune.png" alt="Mercury">
+            
+        </div>
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/saturn.png" alt="Mercury">
+            
+        </div>
+
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/mercury.png" alt="Mercury">
+            
+        </div>
+
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/pluto.png" alt="Mercury">
+            
+        </div>
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/uranus.png" alt="Venus">
+          
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/moon.png" alt="Moon">
+           
+        </div>
+
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/callisto.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/charon.png" alt="Moon">
+           
+        </div>
+
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/deimos.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/enceladus.png" alt="Moon">
+           
+        </div>
+
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/europa.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/ganymede.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/io.png" alt="Moon">
+           
+        </div>
+
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/titan.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="moons">
+            <img src="assets/moons/phobos.png" alt="Moon">
+           
+        </div>
+        <div class="gallery-item" data-category="planets">
+            <img src="assets/planets/earth.png" alt="Earth">
+           
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/two.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/three.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/four.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/five.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/six.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/seven.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/eight.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/nine.png" alt="Space Exploration">
+            
+        </div>
+        <div class="gallery-item" data-category="space-exploration">
+            <img src="assets/space/ten.png" alt="Space Exploration">
+            
+        </div>
+    </section>
+
+    <!-- Lightbox for image zooming -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img src="" alt="Lightbox Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

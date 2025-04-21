@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solar System Explorer</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Solar System Explorer</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#planets">Planets</a></li>
+                <li><a href="#moons">Moons</a></li>
+                <li><a href="#dwarf-planets">Dwarf Planets</a></li>
+                <li><a href="#gallery">Solar Galary</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle theme">🌗</button>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Explore the Solar System</h2>
+        <p>Discover fascinating facts about the planets, moons, and other celestial bodies in our solar neighborhood.</p>
+    </section>
+
+    <section id="planets">
+        <h2 style="text-align: center; margin: 1.5rem 0;">Planets</h2>
+        <div class="cards-container">
+            <!-- Hardcoded Planet Cards -->
+            <div class="card">
+                <a href="mercury.html">
+                    <img src="/assets/planets/mercury.png" alt="Mercury">
+                    <h3>Mercury</h3>
+                    <p>The closest planet to the Sun.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="venus.html">
+                    <img src="/assets/planets/venus.png" alt="Venus">
+                    <h3>Venus</h3>
+                    <p>The second planet from the Sun.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="earth.html">
+                    <img src="/assets/planets/earth.png" alt="Earth">
+                    <h3>Earth</h3>
+                    <p>Our home planet.</p>
+                    <p><strong>Moons:</strong> Moon</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="mars.html">
+                    <img src="/assets/planets/mars.png" alt="Mars">
+                    <h3>Mars</h3>
+                    <p>The red planet.</p>
+                    <p><strong>Moons:</strong> Phobos, Deimos</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="jupiter.html">
+                    <img src="/assets/planets/jupiter.png" alt="Jupiter">
+                    <h3>Jupiter</h3>
+                    <p>The largest planet in our solar system.</p>
+                    <p><strong>Moons:</strong> Io, Europa, Ganymede, Callisto</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="saturn.html">
+                    <img src="/assets/planets/saturn.png" alt="Saturn">
+                    <h3>Saturn</h3>
+                    <p>Known for its beautiful rings.</p>
+                    <p><strong>Moons:</strong> Titan, Enceladus, Rhea</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="uranus.html">
+                    <img src="/assets/planets/uranus.png" alt="Uranus">
+                    <h3>Uranus</h3>
+                    <p>The icy giant with a tilted axis.</p>
+                    <p><strong>Moons:</strong> Miranda, Ariel, Umbriel</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="neptune.html">
+                    <img src="/assets/planets/neptune.png" alt="Neptune">
+                    <h3>Neptune</h3>
+                    <p>The farthest planet from the Sun.</p>
+                    <p><strong>Moons:</strong> Triton, Proteus</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="pluto.html">
+                    <img src="/assets/planets/pluto.png" alt="Pluto">
+                    <h3>Pluto</h3>
+                    <p>A dwarf planet in the Kuiper Belt.</p>
+                    <p><strong>Moons:</strong> Charon</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="moons">
+        <h2 style="text-align: center; margin: 1.5rem 0;">Moons</h2>
+        <div class="cards-container">
+            <!-- Hardcoded Moon Cards -->
+            <div class="card">
+                <a href="moon.html">
+                    <img src="/assets/moons/moon.png" alt="Moon">
+                    <h3>Moon</h3>
+                    <p>Earth's natural satellite.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="phobos.html">
+                    <img src="/assets/moons/phobos.png" alt="Phobos">
+                    <h3>Phobos</h3>
+                    <p>Mars' largest moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="deimos.html">
+                    <img src="/assets/moons/deimos.png" alt="Deimos">
+                    <h3>Deimos</h3>
+                    <p>Mars' smaller moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="io.html">
+                    <img src="/assets/moons/io.png" alt="Io">
+                    <h3>Io</h3>
+                    <p>Jupiter's volcanic moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="europa.html">
+                    <img src="/assets/moons/europa.png" alt="Europa">
+                    <h3>Europa</h3>
+                    <p>Jupiter's icy moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="ganymede.html">
+                    <img src="/assets/moons/ganymede.png" alt="Ganymede">
+                    <h3>Ganymede</h3>
+                    <p>Jupiter's largest moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="callisto.html">
+                    <img src="/assets/moons/callisto.png" alt="Callisto">
+                    <h3>Callisto</h3>
+                    <p>Jupiter's heavily cratered moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="titan.html">
+                    <img src="/assets/moons/titan.png" alt="Titan">
+                    <h3>Titan</h3>
+                    <p>Saturn's largest moon.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="enceladus.html">
+                    <img src="/assets/moons/enceladus.png" alt="Enceladus">
+                    <h3>Enceladus</h3>
+                    <p>Saturn's moon with icy geysers.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="charon.html">
+                    <img src="/assets/moons/charon.png" alt="Charon">
+                    <h3>Charon</h3>
+                    <p>Pluto's largest moon.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="dwarf-planets">
+        <h2 style="text-align: center; margin: 1.5rem 0;">Dwarf Planets</h2>
+        <div class="cards-container">
+            <!-- Hardcoded Dwarf Planet Cards -->
+            <div class="card">
+                <a href="pluto.html">
+                    <img src="/assets/planets/pluto.png" alt="Pluto">
+                    <h3>Pluto</h3>
+                    <p>The most famous dwarf planet in the Kuiper Belt.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="text-align: center; padding: 2rem;">
+        <h2>About This Project</h2>
+        <p>This interactive PWA helps users learn about our solar system through a clean interface and offline access via service workers.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Solar System Explorer.All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
